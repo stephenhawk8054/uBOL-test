@@ -7,3 +7,9 @@
 @@||cdn.adsninja.ca/adsninja_worker$script,domain=androidpolice.com|cbr.com|collider.com|dualshockers.com|gamerant.com|howtogeek.com|makeuseof.com|movieweb.com|screenrant.com|thegamer.com|xda-developers.com
 @@||a.ad.gt/api/v1/u/matches/$script,domain=androidpolice.com|cbr.com|collider.com|dualshockers.com|gamerant.com|howtogeek.com|makeuseof.com|movieweb.com|screenrant.com|thegamer.com|xda-developers.com
 !#endif
+
+! 2024.9.13.749
+! https://github.com/uBlockOrigin/uAssets/commit/c0ee3f1da663efa68bf8e4ae50c08f0f1026315a
+!#if env_chromium
+*$csp=worker-src 'none',domain=androidpolice.com|cbr.com|collider.com|dualshockers.com|gamerant.com|howtogeek.com|makeuseof.com|movieweb.com|screenrant.com|thegamer.com|xda-developers.com
+!#endif
