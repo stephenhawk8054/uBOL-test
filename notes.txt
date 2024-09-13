@@ -1,0 +1,8 @@
+! Notes for test versions
+
+! 2024.9.13.622
+! https://github.com/uBlockOrigin/uBOL-home/issues/202#issuecomment-2348561642
+!#if env_chromium
+@@||cdn.adsninja.ca/adsninja_worker$script,domain=androidpolice.com|cbr.com|collider.com|dualshockers.com|gamerant.com|howtogeek.com|makeuseof.com|movieweb.com|screenrant.com|thegamer.com|xda-developers.com
+@@||a.ad.gt/api/v1/u/matches/$script,domain=androidpolice.com|cbr.com|collider.com|dualshockers.com|gamerant.com|howtogeek.com|makeuseof.com|movieweb.com|screenrant.com|thegamer.com|xda-developers.com
+!#endif
